@@ -1,0 +1,11 @@
+AI Temperature
+Temperature is a parameter in large languages that determines randomness and the creativity of the response.
+Its value ranges from 0 to 1, where the closer it is to 0, the response will be more deterministic,
+making it likely to receive the same response every time the same prompt is executed.
+The closer it is to 1, the response will be highly variable and creative.
+
+OpenAI LLM
+OpenAI has various models that can be used and tested on prompts.
+Some of them are gpt3, gpt4, text-davinci-002, text-davinci-003, etc.
+When an object is started and a model is not declared, the default model used will be text-davinci-003.
+
