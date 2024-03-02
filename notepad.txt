@@ -9,3 +9,7 @@ OpenAI has various models that can be used and tested on prompts.
 Some of them are gpt3, gpt4, text-davinci-002, text-davinci-003, etc.
 When an object is started and a model is not declared, the default model used will be text-davinci-003.
 
+Loading Documents
+The model can't load big text documents. Because of this, it's important and recommended to split documents to
+load can them.
+One way to do this is to use the Lang Chain text splitter, RecursiveCharacterTextSplitter.
